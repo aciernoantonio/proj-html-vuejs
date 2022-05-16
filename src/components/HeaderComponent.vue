@@ -11,7 +11,7 @@
                     </div>
                     <!-- /.open-hour -->
 
-                    <div class="col contacts d-flex">
+                    <div class="col contacts d-flex justify-content-between">
 
                         <div class="phone_number me-5">
                             <font-awesome-icon class="me-1" icon="fa-solid fa-phone" />
@@ -47,7 +47,7 @@
                     <div class="row justify-content-between align-items-center">
 
                         <div class="col">
-                            <div class="logo d-flex align-items-center">
+                            <div class="logo d-flex align-items-center justify-content-start">
                                 <span class="logo green py-2 ps-4 pe-1">NEX</span> GEN
                             </div> 
                         </div>
