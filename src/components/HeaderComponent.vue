@@ -13,13 +13,13 @@
 
                     <div class="col contacts d-flex justify-content-between">
 
-                        <div class="phone_number me-5">
+                        <div class="phone_number ms-5">
                             <font-awesome-icon class="me-1" icon="fa-solid fa-phone" />
                             +1 (305) 1234-5678
                         </div>
                         <!-- /.phone_number -->
 
-                        <div class="mail me-5">
+                        <div class="mail ms-1">
                             <font-awesome-icon class="me-1" icon="fa-solid fa-envelope" />
                             hello@example.com
                         </div>
@@ -40,7 +40,7 @@
         </div>
         <!-- /.top_header -->
 
-        <div class="header_bg">
+        <div class="bottom_header header_bg">
             <nav class="navbar pt-4">
 
                 <div class="container">
@@ -63,10 +63,31 @@
                     </div>
                 </div>
 
+                
+
             </nav>
             <!-- /.navbar -->
-        </div>
 
+            <div class="jumbotron d-flex flex-column justify-content-center align-items-center pt-5">
+                <h1 class="display-4">Lead~ Customer</h1>
+                <p class="lead my-3">
+                    Successful strategies require data analysis, creativity and customer focus, taking
+                    advantage of the latest thecnologies to offer excellent services.
+                </p>
+
+                <div class="d-flex mt-4">
+
+                    <a class="btn btn-success me-4 py-2" href="#" role="button">GET IN TOUCH</a>
+                    <a class="btn btn-empty btn-primary py-2" href="#" role="button">READ MORE</a>
+
+                </div>
+
+                
+            </div>
+            <!-- /.jumbotron -->
+
+        </div>
+        <!-- /.bottom_header -->
         
 
     </header>
@@ -118,15 +139,17 @@ header{
     }
 
     .header_bg{
-        height: calc(100vh - 56px);
+        height: calc(75vh - 56px);
         background-image: url("@/assets/img/hero-image.png");
         background-size: cover;
         background-position: bottom;
         position: relative;
+        z-index: 1;
     }
 
     .header_bg::before{
         position: absolute;
+        z-index: -1;
         content: "";
         top: 0;
         width: 100%;
@@ -161,7 +184,24 @@ header{
         background-color: rgb(1, 165, 165);
     }
 
-    
+    .jumbotron{
+        h1{
+            font-weight: 900;
+        }
+
+        p{
+            width: 50%;
+            font-size: 18px;
+            text-align: center;
+            color: #BEC3D0;
+        }
+
+        .btn-empty{
+            background-color: transparent;
+            border: 1px solid rgb(1, 165, 165);;
+        }
+    }
+   
 }
 
 </style>
