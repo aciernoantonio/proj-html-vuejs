@@ -1,6 +1,6 @@
 <template>
     <main>
-        <section class="strong_points">
+        <div class="strong_points">
 
             <div class="container">
                 <div class="row justify-content-center align-items-center">
@@ -41,14 +41,80 @@
                 </div>
             </div>
 
-        </section>
+        </div>
         <!-- /.strong_points -->
+
+        <div class="company">
+
+            <div class="d-flex justify-content-center align-items-center">
+
+                <div class="col about">
+
+                    <div class="rightText">
+                        <div class="network">ABOUT THE NETWORK</div>
+                        <div class="company mt-4">
+                            <span class="marked rounded-3">The</span> Company
+                        </div>
+                        <div class="subtext text-muted my-4">
+                            For 12 years we have benn providing audit and warranty, financial advice, risk advice, taxes and related services to select clients.
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-6 mt-4">
+                                <h6 class="company_title mb-3"><font-awesome-icon class="icon me-1" icon="fa-solid fa-medal"/>Tradition</h6>
+                                <div class="subtext text-muted mb-3">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </div>
+                            </div>
+
+                            <div class="col-6 mt-4">
+                                <h6 class="company_title mb-3"><font-awesome-icon class="icon me-1" icon="fa-solid fa-lock"/>Security</h6>
+                                <div class="subtext text-muted mb-3">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </div>
+                            </div>
+
+                            <div class="col-6 mt-4">
+                                <h6 class="company_title mb-3"><font-awesome-icon class="icon me-1" icon="fa-solid fa-file-pen"/>Certificate</h6>
+                                <div class="subtext text-muted mb-3">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </div>
+                            </div>
+
+                            <div class="col-6 mt-4">
+                                <h6 class="company_title mb-3"><font-awesome-icon class="icon me-1" icon="fa-solid fa-graduation-cap"/>Expertise</h6>
+                                <div class="subtext text-muted mb-3">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+ 
+                </div>
+                <!-- /.about -->
+
+                <div class="col">
+                    <img src="@/assets/img/news-4.jpg" alt="">
+                </div>
+
+            </div>
+
+        </div>
+        <!-- /.company -->
+
     </main>
 </template>
 
 <style lang="scss" scoped>
 
 main{
+
+    .icon{
+        color: #328486;
+    }
+
     .strong_points{
         background-color: #E8F9E5;
         padding: 8rem 0;
@@ -59,7 +125,7 @@ main{
         }
 
         .icon{
-            color: #328486;
+            
             background-color: #DAECED;
             border-radius: 50%;
             padding: 0.70rem 0.80rem;
@@ -74,6 +140,48 @@ main{
                 padding: 0.70rem 0.85rem;
             }
         }
+    }
+
+    .company{
+        img{
+            height: 568px;
+            width: 100%;
+            object-fit: cover;
+        }
+
+    }
+
+    .about{
+
+        .network{
+            font-size: 12px;
+            color: #0CA6B0;
+            font-weight: 600;
+        }
+
+        .company{
+            font-weight: bold;
+            font-size: 35px;
+        }
+
+        .marked{
+            color: #058283;
+            background-color: #DAECED;
+            padding: 0.75rem 1rem;
+        }
+
+        .rightText{
+            margin-left: 300px;
+        }
+
+        .subtext{
+            font-size: 12px;
+        }
+
+        .company_title{
+            font-weight: 700;
+        }
+
     }
 }
 
