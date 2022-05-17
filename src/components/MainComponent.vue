@@ -434,6 +434,95 @@
         </div>
         <!-- /.know -->
 
+        <div class="message">
+
+            <div class="container">
+
+                <div class="row justify-content-center align-items-start">
+
+                    <div class="col-8">
+
+                        <div class="uptitle">SEND A MESSAGE</div>
+                        <div class="company mt-4">
+                            Get in <span class="marked rounded-3">Touch</span>
+                        </div>
+
+                        <div class="subtext text-muted my-4 text-start mb-5">
+                            We will respond to your message as soon as possible.
+                        </div>
+
+                        <div class="row">
+                            <div class="col-6 mb-4 position-relative">
+                                <img class="inside" src="@/assets/img/image (1).png" alt="">
+                                <input type="text" class="form form-control bg-light border-0 " placeholder="Name">
+                            </div>
+                            <div class="col-6">
+                                <input type="text" class="form form-control bg-light border-0" placeholder="Email">
+                            </div>
+
+                            <div class="col-6">
+                                <input type="text" class="form form-control bg-light border-0" placeholder="Number">
+                            </div>
+                            <div class="col-6 position-relative">
+                                <div><font-awesome-icon class="inside" icon="fa-solid fa-angle-down" /></div>
+                                <select id="inputState" class="form form-control bg-light border-0">
+                                    <option selected>Choose...</option>
+                                    <option>...</option>
+                                 </select>
+                            </div>
+
+                            <div class="col-12 mt-4">
+                                
+                                <textarea class="form form-control bg-light border-0" placeholder="Message" rows="3"></textarea>
+                            </div>
+
+                        </div>
+
+                        <a href="#" class="btn btn-success btn-full mt-4">SEND</a>
+
+                    </div>
+
+                    <div class="col-4">
+                        <h5 class="font-600 mb-3">Example Inc.</h5>
+
+                        <div class="subtext text-muted my-4 text-start mb-3">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </div>
+
+                        <div class="subtext text-muted my-4 text-start mb-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                        </div>
+
+                        <div class="contacts">
+
+                            <div class="phone d-flex align-items-center mb-3">
+                                <div><font-awesome-icon class="icon me-2" icon="fa-solid fa-phone"/></div> +1 (305) 1234-5678
+                                 
+                            </div>
+
+                            <div class="phone d-flex align-items-center mb-3">
+                                <div><font-awesome-icon class="icon me-2" icon="fa-solid fa-envelope"/></div> hello@example.com
+                                 
+                            </div>
+
+                            <div class="phone d-flex align-items-center mb-3">
+                                <div><font-awesome-icon class="icon me-2" icon="fa-solid fa-location-dot"/></div> Main Avenue, 987
+                                 
+                            </div>
+
+                            <a class="btn btn-empty btn-primary py-2 px-3" href="#" role="button">VIEW MAP</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- /.message -->
+
 
     </main>
 </template>
@@ -441,6 +530,10 @@
 <style lang="scss" scoped>
 
 main{
+
+    .font-600{
+        font-weight: 600;
+    }
 
     .marked_dark{
             background-color: rgba(1, 165, 165, 0.3);
@@ -507,7 +600,8 @@ main{
     .services,
     .pricing,
     .news,
-    .know{
+    .know,
+    .message{
 
         .network{
             font-size: 12px;
@@ -712,6 +806,45 @@ main{
 
         .btn{
             background-color: rgb(1, 165, 165);
+        }
+    }
+
+    .message{
+        .container{
+            width: 900px;
+            margin: auto;
+            padding: 7rem 0;
+        }
+
+        .inside{
+            position: absolute;
+            left: 85%;
+            top: 26%;
+        }
+
+        .contacts{
+
+            color: #108383;
+
+            .icon{
+                
+                background-color: #DAECED;
+                border-radius: 50%;
+                padding: 0.70rem 0.80rem;
+            }
+
+            .btn-empty{
+                background-color: transparent;
+                color: rgb(1, 165, 165);
+                border: 1px solid rgb(1, 165, 165);
+            }
+
+            
+        }
+
+        .btn-full{
+            background-color: rgb(1, 165, 165);
+            border: none;
         }
     }
 
