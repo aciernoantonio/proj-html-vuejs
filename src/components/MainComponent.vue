@@ -633,7 +633,7 @@ main{
     .services{
 
         padding: 7rem 0;
-        background-color: black;
+        background-color: #111117;
 
         .btn-empty{
             background-color: transparent;
