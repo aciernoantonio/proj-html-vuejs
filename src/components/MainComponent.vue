@@ -206,7 +206,151 @@
             
 
         </div>
+        <!-- /.services -->
 
+        <div class="pricing">
+
+            <div class="container text-center">
+
+                <div class="uptitle">OUR BUSINESS AREAS</div>
+                <div class="company mt-4">
+                    <span class="marked rounded-3">Pricing</span> Table 
+                </div>
+
+                <div class="subtext text-muted mt-4">
+                    We can help you deliver and execute your future, wherever you complete, using the latest <br> technologies, from stategy
+                    development to implementation.
+                </div>
+
+                <div class="row align-items-center">
+
+                    <div class="col standard py-4">
+                        <div class="card p-3 border-0">
+                            <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                                <div class="icon mb-3"><font-awesome-icon icon="fa-solid fa-rocket" /></div>
+                                <h5 class="card-title">Standard</h5>
+
+                                <div class="price d-flex align-items-center py-2">
+                                    $<h2>490</h2>/mo
+                                </div>
+                                
+
+
+                                <div class="row align-items-center justify-content-between">
+
+                                    <div class="col-10 text-start">
+                                        <h6 class="card-subtitle my-3 text-muted">Standard Accounting</h6>
+                                        <h6 class="card-subtitle my-3 text-muted">Platform Access</h6>
+                                        <h6 class="card-subtitle my-3 text-muted">Business Orientation</h6>
+                                        <h6 class="card-subtitle my-3 text-muted">Dedicated Consultant</h6>
+                                        <h6 class="card-subtitle my-3 text-muted">Personal Assistance</h6>
+                                    </div>
+
+                                    <div class="col-2">
+
+                                        <div class="icon my-2 small"><font-awesome-icon icon="fa-solid fa-check" /></div>
+                                        <div class="icon my-2 small"><font-awesome-icon icon="fa-solid fa-check" /></div>
+                                        <div class="icon my-2 small"><font-awesome-icon icon="fa-solid fa-xmark" /></div>
+                                        <div class="icon my-2 small"><font-awesome-icon icon="fa-solid fa-xmark" /></div>
+                                        <div class="icon my-2 small"><font-awesome-icon icon="fa-solid fa-xmark" /></div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col professional py-4">
+                        <div class="card p-3 border-0 py-5 popular">
+
+                            <div class="badge text-white text-start">
+                                Most <br> Popular
+                            </div>
+
+                            <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                                <div class="icon mb-3"><font-awesome-icon icon="fa-solid fa-briefcase" /></div>
+                                <h5 class="card-title">Professional</h5>
+
+                                <div class="price d-flex align-items-center py-2">
+                                    $<h2>890</h2>/mo
+                                </div>
+                                
+
+
+                                <div class="row align-items-center justify-content-between">
+
+                                    <div class="col-10 text-start">
+                                        <h6 class="card-subtitle my-3 text-muted">Standard Accounting</h6>
+                                        <h6 class="card-subtitle my-3 text-muted">Platform Access</h6>
+                                        <h6 class="card-subtitle my-3 text-muted">Business Orientation</h6>
+                                        <h6 class="card-subtitle my-3 text-muted">Dedicated Consultant</h6>
+                                        <h6 class="card-subtitle my-3 text-muted">Personal Assistance</h6>
+                                    </div>
+
+                                    <div class="col-2">
+
+                                        <div class="icon my-2 small"><font-awesome-icon icon="fa-solid fa-check" /></div>
+                                        <div class="icon my-2 small"><font-awesome-icon icon="fa-solid fa-check" /></div>
+                                        <div class="icon my-2 small"><font-awesome-icon icon="fa-solid fa-check" /></div>
+                                        <div class="icon my-2 small"><font-awesome-icon icon="fa-solid fa-xmark" /></div>
+                                        <div class="icon my-2 small"><font-awesome-icon icon="fa-solid fa-xmark" /></div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col ultimate py-4">
+                        <div class="card p-3 border-0">
+                            <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                                <div class="icon mb-3"><font-awesome-icon icon="fa-solid fa-gem" /></div>
+                                <h5 class="card-title">Ultimate</h5>
+
+                                <div class="price d-flex align-items-center py-2">
+                                    $<h2>1390</h2>/mo
+                                </div>
+                                
+
+
+                                <div class="row align-items-center justify-content-between">
+
+                                    <div class="col-10 text-start">
+                                        <h6 class="card-subtitle my-3 text-muted">Standard Accounting</h6>
+                                        <h6 class="card-subtitle my-3 text-muted">Platform Access</h6>
+                                        <h6 class="card-subtitle my-3 text-muted">Business Orientation</h6>
+                                        <h6 class="card-subtitle my-3 text-muted">Dedicated Consultant</h6>
+                                        <h6 class="card-subtitle my-3 text-muted">Personal Assistance</h6>
+                                    </div>
+
+                                    <div class="col-2">
+
+                                        <div class="icon my-2 small"><font-awesome-icon icon="fa-solid fa-check" /></div>
+                                        <div class="icon my-2 small"><font-awesome-icon icon="fa-solid fa-check" /></div>
+                                        <div class="icon my-2 small"><font-awesome-icon icon="fa-solid fa-check" /></div>
+                                        <div class="icon my-2 small"><font-awesome-icon icon="fa-solid fa-check" /></div>
+                                        <div class="icon my-2 small"><font-awesome-icon icon="fa-solid fa-check" /></div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                </div>
+                
+            </div>
+
+        </div>
+        <!-- /.pricing -->
 
 
     </main>
@@ -215,6 +359,12 @@
 <style lang="scss" scoped>
 
 main{
+
+    .marked{
+        color: #058283;
+        padding: 0.75rem 1rem;
+        background-color: #CCE3DE;
+    }
 
     .text-white{
         color: white;
@@ -267,7 +417,8 @@ main{
     }
 
     .about,
-    .services{
+    .services,
+    .pricing{
 
         .network{
             font-size: 12px;
@@ -280,10 +431,7 @@ main{
             font-size: 35px;
         }
 
-        .marked{
-            color: #058283;
-            padding: 0.75rem 1rem;
-        }
+        
 
         .rightText{
             margin-left: 300px;
@@ -336,6 +484,57 @@ main{
             font-size: 13px;
         }
 
+    }
+
+    .pricing{
+        padding: 8rem 0;
+        background-color: #E8F9E5;
+        
+        .container{
+            width: 900px;
+            margin: auto;
+        }
+
+        .icon{
+            font-size: 40px;
+        }
+
+        .card-title{
+            font-weight: 600;
+        }
+
+        .price{
+            color: rgb(1, 165, 165);
+
+            h2{
+                font-weight: 600;
+            }
+        }
+
+        .popular{
+            position: relative;
+        }
+
+        .badge{
+            background-color: #328486;
+            padding: 0.5rem 1rem;
+            position: absolute;
+            border-radius: 16px;
+            border-start-start-radius: 0;
+            border-end-start-radius: 0;
+            top: 5%;
+            left: 0;
+        }
+
+        .col{
+            .small{
+                font-size: 15px;
+            }
+
+            h6{
+                font-size: 12px;
+            }
+        }
     }
 
 }

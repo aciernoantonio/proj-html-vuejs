@@ -170,8 +170,9 @@ header{
     .green{
         color: rgb(1, 165, 165);
         background-color: rgba(1,165,165, 30%);
-        border-top-left-radius: 37%;
-        border-bottom-left-radius: 37%;
+        border-radius: 50px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
     }
     
     a{
