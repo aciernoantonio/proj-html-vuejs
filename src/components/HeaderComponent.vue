@@ -185,6 +185,10 @@ header{
         background-color: rgb(1, 165, 165);
     }
 
+    .btn:hover{
+            background-color: #16c0cc;
+        }
+
     .jumbotron{
         h1{
             font-weight: 900;
@@ -200,6 +204,10 @@ header{
         .btn-empty{
             background-color: transparent;
             border: 1px solid rgb(1, 165, 165);;
+        }
+
+        .btn-empty:hover{
+            background-color: #16c0cc;
         }
     }
    

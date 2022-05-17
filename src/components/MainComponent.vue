@@ -564,6 +564,10 @@ main{
         background-color: #E8F9E5;
         padding: 8rem 0;
 
+        .card:hover{
+            transform: translateY(-5%);
+        }
+
         .container{
             width: 800px;
             margin: auto;
@@ -603,6 +607,8 @@ main{
     .know,
     .message{
 
+
+
         .network{
             font-size: 12px;
             color: #0CA6B0;
@@ -632,6 +638,10 @@ main{
 
     .services{
 
+        .card:hover{
+            transform: translateY(-5%);
+        }
+
         padding: 7rem 0;
         background-color: #111117;
 
@@ -640,7 +650,9 @@ main{
             border: 1px solid rgb(1, 165, 165);
         }
 
-        
+        .btn-empty:hover{
+            background-color: #16c0cc;
+        }
 
         .container{
             width: 850px;
@@ -669,6 +681,10 @@ main{
     .pricing{
         padding: 8rem 0;
         background-color: #E8F9E5;
+
+        .card:hover{
+            transform: translateY(-5%);
+        }
         
         .container{
             width: 900px;
@@ -719,8 +735,13 @@ main{
 
     .news{
         padding: 7rem 0;
+
+        .services-card:hover{
+            border: 20px solid #E8F9E5;
+        }
+
         .container{
-            width: 900px;
+        width: 900px;
         }
 
         .btn{
