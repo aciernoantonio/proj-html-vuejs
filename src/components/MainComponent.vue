@@ -212,7 +212,7 @@
 
             <div class="container text-center">
 
-                <div class="uptitle">OUR BUSINESS AREAS</div>
+                <div class="uptitle">MONTHLY PLANS</div>
                 <div class="company mt-4">
                     <span class="marked rounded-3">Pricing</span> Table 
                 </div>
@@ -262,7 +262,7 @@
                         </div>
                     </div>
 
-                    <div class="col professional py-4">
+                    <div class="col professional py-4 px-3">
                         <div class="card p-3 border-0 py-5 popular">
 
                             <div class="badge text-white text-start">
@@ -576,7 +576,6 @@ main{
 
             h6{
                 font-size: 12px;
-                position: absolute;
             }
         }
     }
@@ -598,7 +597,7 @@ main{
         #creativity{
             background-image: url("@/assets/img/news-1.jpg");
             height: 300px;
-            background-size: contain;
+            background-size: cover;
             border-radius: 20px;
             margin: 0.75rem;
         }
@@ -606,7 +605,7 @@ main{
         #market{
             background-image: url("@/assets/img/news-2.jpg");
             height: 300px;
-            background-size: contain;
+            background-size: cover;
             border-radius: 20px;
             margin: 0.75rem;
         }
@@ -614,7 +613,7 @@ main{
         #work{
             background-image: url("@/assets/img/news-3.jpg");
             height: 300px;
-            background-size: contain;
+            background-size: cover;
             border-radius: 20px;
             margin: 0.75rem;
         }
