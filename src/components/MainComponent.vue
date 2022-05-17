@@ -121,7 +121,7 @@
                         </div>
                     </div>
 
-                    <div class="col-3">
+                    <div class="col-3 text-end">
                         <a class="btn btn-empty btn-primary py-2 px-3" href="#" role="button">SEE ALL</a>
                     </div>
                 </div>
@@ -352,6 +352,48 @@
         </div>
         <!-- /.pricing -->
 
+        <div class="news">
+            <div class="container">
+
+                <div class="uptitle">OUR EDITORIAL CONTENT</div>
+                <div class="company mt-4">
+                    Latest <span class="marked rounded-3">News</span>
+                </div>
+
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-9">
+                        <div class="subtext text-muted my-4 text-start">
+                            Every week we publish content about what is best in the business world.
+                        </div>
+                    </div>
+
+                    <div class="col-3 text-end">
+                        <a class="btn btn-primary py-2 border-0 px-3" href="#" role="button">SEE ALL</a>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+
+                    <div class="col services-card dark_bg p-0" id="creativity">
+                        <h5 class="text-white text-center text-bold p-4">Increasing cretivity is possible for everyone</h5>
+                    </div>
+
+                    <div class="col services-card dark_bg p-0" id="market">
+                        <h5 class="text-white text-center text-bold p-4">Because market research is part of the business plan</h5>
+                    </div>
+
+                    <div class="col services-card dark_bg p-0" id="work">
+                        <h5 class="text-white text-center text-bold p-4">Working from home is now a trend</h5>
+                    </div>
+
+                    
+
+                </div>
+
+            </div>
+        </div>
+        <!-- /.news -->
+
 
     </main>
 </template>
@@ -418,7 +460,8 @@ main{
 
     .about,
     .services,
-    .pricing{
+    .pricing,
+    .news{
 
         .network{
             font-size: 12px;
@@ -533,8 +576,77 @@ main{
 
             h6{
                 font-size: 12px;
+                position: absolute;
             }
         }
+    }
+
+    .news{
+        padding: 7rem 0;
+        .container{
+            width: 900px;
+        }
+
+        .btn{
+            background-color: rgb(1, 165, 165)
+        }
+
+        .subtext{
+            font-size: 14px;
+        }
+
+        #creativity{
+            background-image: url("@/assets/img/news-1.jpg");
+            height: 300px;
+            background-size: contain;
+            border-radius: 20px;
+            margin: 0.75rem;
+        }
+
+        #market{
+            background-image: url("@/assets/img/news-2.jpg");
+            height: 300px;
+            background-size: contain;
+            border-radius: 20px;
+            margin: 0.75rem;
+        }
+
+        #work{
+            background-image: url("@/assets/img/news-3.jpg");
+            height: 300px;
+            background-size: contain;
+            border-radius: 20px;
+            margin: 0.75rem;
+        }
+
+        .dark_bg{
+            position: relative;
+            z-index: 1;
+        }
+
+        .dark_bg::before{
+            position: absolute;
+            z-index: -1;
+            content: "";
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0, 40%);
+            border-radius: 20px;
+        }
+
+        .services-card{
+
+            position: relative;
+
+            h5{
+                font-weight: bold;
+                position: absolute;
+                top: 60%;
+            } 
+        }
+
+        
     }
 
 }
