@@ -155,7 +155,34 @@
         </div>
 
 
-        
+        <div class="bottom_footer d-flex align-items-center">
+
+            <div class="container">
+
+                <div class="row justify-content-between align-items-center">
+
+                    <div class="col py-3">
+                        <div class="subtext text-white my-4">
+                            Enjoy the low price. We are tracking any intention of piracy
+                        </div>
+                    </div>
+
+                    <div class="col">
+
+
+                        <div class="subtext text-white my-4 text-end">
+                            &copy; 2020 NEXTGEN is Proudly Powered by <span class="marked">Codings</span>.
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        <div><font-awesome-icon class="arrow" icon="fa-solid fa-arrow-up"/></div>
+
+        </div>
 
     </footer>
     
@@ -164,16 +191,29 @@
 <style lang="scss" scoped>
 
 footer{
+
+    .arrow{
+        color: #111117;
+        font-size: 25px;
+        background-color: #19191C;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        padding: 1rem;
+    }
+    
+    .container{
+        width: 900px;
+        margin: auto;
+    }
+
     .top_footer{
 
         background-color: #111117;
         color: white;
         padding: 7rem 0;
 
-        .container{
-            width: 900px;
-            margin: auto;
-        }
+        
 
         .logo{
             font-size: 20px;
@@ -212,6 +252,19 @@ footer{
 
         .card-subtitle{
             font-size: 13px;
+        }
+    }
+
+    .bottom_footer{
+        padding: 0 2rem;
+        background-color: #0D0D11;
+
+        .subtext{
+            font-size: 8px;
+        }
+
+        .marked{
+            color: rgb(1, 165, 165);
         }
     }
 }
