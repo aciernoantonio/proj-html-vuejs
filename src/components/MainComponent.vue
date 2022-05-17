@@ -394,6 +394,46 @@
         </div>
         <!-- /.news -->
 
+        <div class="know">
+
+            <div class="container">
+
+                <div class="row align-items-center justify-content-center">
+
+                    <div class="col">
+
+                    <div class="uptitle">NEWSLETTER</div>
+                    <div class="company mt-4 text-white">
+                        <span class="marked_dark rounded-3">Know</span> First
+                    </div>
+
+                    <div class="subtext my-4 text-start text-white">
+                        Follow closely and receive content about our company <br> and the news of the current market.
+                    </div>
+
+                </div>
+
+                <div class="col">
+                    <div>
+                        <input type="email" class="form mb-3 w-100" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+                    
+                    <div>
+                        <input type="password" class="form mb-3 w-100" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    
+                    <a href="#" class="btn btn-success">SUBSCRIBE</a>
+                </div>
+
+                </div>
+
+                
+
+            </div>
+
+        </div>
+        <!-- /.know -->
+
 
     </main>
 </template>
@@ -401,6 +441,11 @@
 <style lang="scss" scoped>
 
 main{
+
+    .marked_dark{
+            background-color: rgba(1, 165, 165, 0.3);
+            padding: 0.75rem 1rem;
+        }
 
     .marked{
         color: #058283;
@@ -461,7 +506,8 @@ main{
     .about,
     .services,
     .pricing,
-    .news{
+    .news,
+    .know{
 
         .network{
             font-size: 12px;
@@ -500,10 +546,7 @@ main{
             border: 1px solid rgb(1, 165, 165);
         }
 
-        .marked_dark{
-            background-color: rgba(1, 165, 165, 0.3);
-            padding: 0.75rem 1rem;
-        }
+        
 
         .container{
             width: 850px;
@@ -646,6 +689,30 @@ main{
         }
 
         
+    }
+
+    .know{
+        background-image: url("@/assets/img/bg-1.jpg");
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        padding: 10rem 0;
+
+        .container{
+            width: 800px;
+            margin: auto;
+        }
+
+        .form{
+            width: 50%;
+            padding: 0.5rem 1rem;
+            background-color: rgba(#ffffff, 0.7);
+            border: none;
+        }
+
+        .btn{
+            background-color: rgb(1, 165, 165);
+        }
     }
 
 }
